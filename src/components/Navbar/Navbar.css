@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.navbar {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo .logo {
+  font-family: "Volkhov", serif;
+  font-size: 43px;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+.navbar__right {
+  display: flex;
+  gap: 47px;
+}
+.navbar__right ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  gap: 47px;
+}
+.navbar__right ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(72, 72, 72);
+}
+.navbar__right--login {
+  display: flex;
+  gap: 47px;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__right--login .loginBtn {
+  background-color: transparent;
+  border: none;
+  color: rgb(72, 72, 72);
+}
+.navbar__right--login .signBtn {
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8.2px;
+  box-shadow: 0px 16.39px 28.68px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(0, 0, 0);
+}/*# sourceMappingURL=Navbar.css.map */

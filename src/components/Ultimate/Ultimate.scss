@@ -1,0 +1,107 @@
+@import "../../theme.scss";
+.ultimate {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+
+  &__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    &--block1 {
+      background: rgb(224, 224, 224);
+      width: 320px;
+      height: 620px;
+      border-radius: 8.2px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    &--block2 {
+      width: 350px;
+      height: 620px;
+      border-radius: 8.2px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      &-top {
+        background: rgb(224, 224, 224);
+        border-radius: 8.2px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+      }
+
+      &-foot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4.1px;
+        box-shadow: 0px 16.39px 42.85px 0px rgba(68, 68, 68, 0.04);
+        background: rgb(255, 255, 255);
+
+        & img {
+          width: 100%;
+        }
+      }
+
+      &-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        h1 {
+          font-size: 75px;
+          font-weight: 500;
+          color: $btn;
+        }
+        h2 {
+          color: #000;
+          font-size: 145px;
+          margin-top: -50px;
+        }
+        h3 {
+          font-size: 17px;
+          font-weight: 400;
+          color: $btn;
+          margin-top: -40px;
+        }
+        & .shop {
+          border-radius: 8.2px;
+          box-shadow: 0px 16.39px 28.68px 0px rgba(0, 0, 0, 0.15);
+          background: rgb(0, 0, 0);
+          color: #fff;
+          padding: 10px 25px;
+          border: none;
+        }
+      }
+    }
+
+    &--block3 {
+      background: rgb(224, 224, 224);
+      width: 320px;
+      height: 620px;
+      border-radius: 8.2px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+  }
+}
